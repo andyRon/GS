@@ -9,5 +9,6 @@ target 'GS' do
   pod 'Alamofire', '~> 4.4'
   pod 'Kingfisher', '~> 3.0'
   pod 'SwiftyJSON'
-
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+  
 end

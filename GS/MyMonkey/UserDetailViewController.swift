@@ -11,10 +11,15 @@ import Alamofire
 import Kingfisher
 import SwiftyJSON
 
-class UserDetailViewController: UIViewController {
+class UserDetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet var avatarView: UIImageView!
     @IBOutlet var loginLabel: UILabel!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var companyLabel: UILabel!
+    @IBOutlet var createdLabel: UILabel!
+    @IBOutlet var blogLabel: UILabel!
+    @IBOutlet var locationLabel: UILabel!
     
     var login:String?
     var userInfo: JSON?
@@ -32,6 +37,11 @@ class UserDetailViewController: UIViewController {
                 let imageURL = URL(string: (self.userInfo?["avatar_url"].string!)!)
                 self.avatarView.kf.setImage(with: imageURL)
                 self.loginLabel.text = self.userInfo?["login"].string
+                self.nameLabel.text = self.userInfo?["name"].string
+                self.companyLabel.text = self.userInfo?["company"].string
+                self.createdLabel.text = self.userInfo?["created"].string
+                self.blogLabel.text = self.userInfo?["blog"].string
+                self.locationLabel.text = self.userInfo?["location"].string
 //                self.tableView.reloadData()
             case .failure(let error):
                 print(error)
@@ -40,10 +50,6 @@ class UserDetailViewController: UIViewController {
         }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
 
     /*

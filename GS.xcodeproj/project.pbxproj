@@ -19,6 +19,13 @@
 		EF90DA5D1F458C780005AEEC /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90DA5C1F458C780005AEEC /* NewsViewController.swift */; };
 		EF90DA5F1F458CA30005AEEC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90DA5E1F458CA30005AEEC /* SearchViewController.swift */; };
 		EF90DA621F4590540005AEEC /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90DA611F4590540005AEEC /* MoreViewController.swift */; };
+		EF90DA641F45E6E10005AEEC /* UserRankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90DA631F45E6E10005AEEC /* UserRankTableViewCell.swift */; };
+		EF90DA681F45F1990005AEEC /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90DA671F45F1990005AEEC /* MyImageView.swift */; };
+		EF90DA6A1F45F8A70005AEEC /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90DA691F45F8A70005AEEC /* UserDetailTableViewCell.swift */; };
+		EF90DA6D1F45FE860005AEEC /* UserDetaillRepositoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90DA6B1F45FE860005AEEC /* UserDetaillRepositoriesCell.swift */; };
+		EF90DA6E1F45FE860005AEEC /* UserDetaillRepositoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF90DA6C1F45FE860005AEEC /* UserDetaillRepositoriesCell.xib */; };
+		EF90DA711F45FF640005AEEC /* FollowingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90DA6F1F45FF640005AEEC /* FollowingCell.swift */; };
+		EF90DA721F45FF640005AEEC /* FollowingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF90DA701F45FF640005AEEC /* FollowingCell.xib */; };
 		EFD5F29D1F45430E00332227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5F29C1F45430E00332227 /* AppDelegate.swift */; };
 		EFD5F29F1F45430E00332227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5F29E1F45430E00332227 /* ViewController.swift */; };
 		EFD5F2A71F45430E00332227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD5F2A51F45430E00332227 /* LaunchScreen.storyboard */; };
@@ -46,6 +53,13 @@
 		EF90DA5C1F458C780005AEEC /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		EF90DA5E1F458CA30005AEEC /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EF90DA611F4590540005AEEC /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		EF90DA631F45E6E10005AEEC /* UserRankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRankTableViewCell.swift; sourceTree = "<group>"; };
+		EF90DA671F45F1990005AEEC /* MyImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
+		EF90DA691F45F8A70005AEEC /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
+		EF90DA6B1F45FE860005AEEC /* UserDetaillRepositoriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetaillRepositoriesCell.swift; sourceTree = "<group>"; };
+		EF90DA6C1F45FE860005AEEC /* UserDetaillRepositoriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetaillRepositoriesCell.xib; sourceTree = "<group>"; };
+		EF90DA6F1F45FF640005AEEC /* FollowingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingCell.swift; sourceTree = "<group>"; };
+		EF90DA701F45FF640005AEEC /* FollowingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowingCell.xib; sourceTree = "<group>"; };
 		EFD5F2991F45430E00332227 /* GS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD5F29C1F45430E00332227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFD5F29E1F45430E00332227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +181,13 @@
 				EFD5F2BA1F45433300332227 /* UserDetailViewController.swift */,
 				EFD5F2BB1F45433300332227 /* UserRankViewController.swift */,
 				EFD5F2CB1F45543D00332227 /* UserModel.swift */,
+				EF90DA631F45E6E10005AEEC /* UserRankTableViewCell.swift */,
+				EF90DA671F45F1990005AEEC /* MyImageView.swift */,
+				EF90DA691F45F8A70005AEEC /* UserDetailTableViewCell.swift */,
+				EF90DA6B1F45FE860005AEEC /* UserDetaillRepositoriesCell.swift */,
+				EF90DA6C1F45FE860005AEEC /* UserDetaillRepositoriesCell.xib */,
+				EF90DA6F1F45FF640005AEEC /* FollowingCell.swift */,
+				EF90DA701F45FF640005AEEC /* FollowingCell.xib */,
 			);
 			name = UserModule;
 			path = MyMonkey;
@@ -235,8 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF90DA721F45FF640005AEEC /* FollowingCell.xib in Resources */,
 				EFD5F2A71F45430E00332227 /* LaunchScreen.storyboard in Resources */,
 				EFD5F2BE1F45433300332227 /* Assets.xcassets in Resources */,
+				EF90DA6E1F45FE860005AEEC /* UserDetaillRepositoriesCell.xib in Resources */,
 				EFD5F2BD1F45433300332227 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,12 +275,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GS/Pods-GS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -307,16 +332,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD5F29F1F45430E00332227 /* ViewController.swift in Sources */,
+				EF90DA6A1F45F8A70005AEEC /* UserDetailTableViewCell.swift in Sources */,
 				EF90DA5B1F458C270005AEEC /* TrendingViewController.swift in Sources */,
 				EF90DA571F458BD30005AEEC /* ShowcasesViewController.swift in Sources */,
 				EFD5F2C61F45433300332227 /* UserDetailViewController.swift in Sources */,
+				EF90DA641F45E6E10005AEEC /* UserRankTableViewCell.swift in Sources */,
 				EFD5F2CC1F45543D00332227 /* UserModel.swift in Sources */,
 				EFD5F2C71F45433300332227 /* UserRankViewController.swift in Sources */,
 				EF90DA4F1F458B1C0005AEEC /* DiscoveryViewController.swift in Sources */,
+				EF90DA681F45F1990005AEEC /* MyImageView.swift in Sources */,
 				EF90DA4B1F458A470005AEEC /* RepositoriesViewController.swift in Sources */,
+				EF90DA6D1F45FE860005AEEC /* UserDetaillRepositoriesCell.swift in Sources */,
 				EFD5F29D1F45430E00332227 /* AppDelegate.swift in Sources */,
 				EF90DA591F458C010005AEEC /* ShowcasesDetailViewController.swift in Sources */,
 				EF90DA551F458BA50005AEEC /* GitHubRankingViewController.swift in Sources */,
+				EF90DA711F45FF640005AEEC /* FollowingCell.swift in Sources */,
 				EF90DA621F4590540005AEEC /* MoreViewController.swift in Sources */,
 				EFD5F2C41F45433300332227 /* CountryViewController.swift in Sources */,
 				EF90DA5F1F458CA30005AEEC /* SearchViewController.swift in Sources */,

@@ -13,14 +13,15 @@ import Kingfisher
 
 class UserRankViewController: UITableViewController {
 
+    @IBOutlet var cityButton: UIButton!
+    @IBOutlet var countryButton: UIButton!
+    @IBOutlet var totalLabel: UILabel!
+
     var datas = [JSON]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        let g = GithubAPI()
-//        g.searchUsers(q: "location:china")
-//        self.datas = g.users
-//        tableView.reloadData()
         
         navigationItem.title = "所有语言"
         let url = "https://api.github.com/search/users?q=location:china&sort=followers&page=2"
@@ -29,6 +30,7 @@ class UserRankViewController: UITableViewController {
             case .success(let value):
                 let josn = JSON(value)
                 self.datas = josn["items"].arrayValue
+                self.totalLabel.text = "total:\(josn["total_count"].int!)"
                 self.tableView.reloadData()
             case .failure(let error):
                 print(error)
@@ -53,13 +55,16 @@ class UserRankViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! UserRankTableViewCell
 
         // Configure the cell...
-        cell.textLabel?.text = datas[indexPath.row]["login"].string
+        cell.numberLabel.text = "\(indexPath.row + 1)"
+        cell.loginLabel.text = datas[indexPath.row]["login"].string
         
         let imageURL = URL(string: datas[indexPath.row]["avatar_url"].string!)
+        cell.imageView?.kf.indicatorType = .activity
         cell.imageView?.kf.setImage(with: imageURL)
+        cell.imageView?.layer.cornerRadius = 5
 
         return cell
     }

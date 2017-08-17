@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ChameleonFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Kingfisher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>76BD4592010354D6C23D6ECCA20D83A8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B579B68885716725C5FBBC1D5680537B</key>
+		<key>933399CB77F61601F9A250D3AB488E70</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F701D2F10F6D7AEEF908705BD0E72A5A</key>
+		<key>A22C8A1B29A5B5F61F69D58C99E05C59</key>
 		<dict>
 			<key>primary</key>
 			<true/>
