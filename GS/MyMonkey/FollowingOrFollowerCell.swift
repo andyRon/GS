@@ -1,5 +1,5 @@
 //
-//  UserDetaillRepositoriesCell.swift
+//  FollowingOrFollowerCell.swift
 //  GS
 //
 //  Created by andyron on 2017/8/18.
@@ -8,8 +8,13 @@
 
 import UIKit
 
-class UserDetaillRepositoriesCell: UITableViewCell {
+class FollowingOrFollowerCell: UITableViewCell {
 
+    @IBOutlet var numberLabel: UILabel!
+    @IBOutlet var avatarImageView: UIImageView!
+    @IBOutlet var loginLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +25,5 @@ class UserDetaillRepositoriesCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
 }
